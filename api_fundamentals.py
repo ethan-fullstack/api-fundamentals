@@ -320,7 +320,7 @@ def build_payload_from_fields(
 
 def main_loop():
     ensure_base_url()
-    authenticate_if_needed()
+    # authenticate_if_needed()
 
     collection = DEFAULT_COLLECTION
     print("\n🔗 Directus CLI ready.")
